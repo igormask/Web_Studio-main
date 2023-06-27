@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 li {
@@ -88,10 +89,6 @@ a {
 .menu-list {
     display: flex;
     padding-top: 32px;
-}
-
-.item {
-    margin-left: 50px;
 }
 
 .header-contact {
@@ -198,8 +195,7 @@ a {
     background-color: #2195f3b9;
 }
 .advantages {
-}
-.advantages {
+    padding-top: 94px;
 }
 
 .attention-list {
@@ -232,9 +228,7 @@ a {
 
 /* Чим ми займаємося  */
 .our-works {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+   
 }
 
 .our-works-list {
@@ -279,7 +273,13 @@ a {
 }
 
 .ul2section {
+    gap: 30px;
+    flex-wrap: wrap;
     display: flex;
+}
+
+.ul2section>.item{
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 /* Футер */
